@@ -1,23 +1,18 @@
 
 import './App';
+import SearchBar from '../SearchBar/SearchBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          I havent lost my mind. 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React fast!
-        </a>
-      </header>
+    <div>
+      <h1>Ja<span className="highlight">mm</span>ing</h1>
+      <div className="App">
+        <SearchBar />
+        <div className="App-playlist">
+          {/* <SearchResults />
+          <Playlist /> */}
+        </div>
+      </div>
     </div>
   );
 }
